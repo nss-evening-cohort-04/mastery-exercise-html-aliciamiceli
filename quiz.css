@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+article {
+  border: solid 1px lightblue;
+  width: 30%;
+  display: inline-block;
+  margin: 1%;
+}
+
+article header {
+  border: 1px dotted lightgray;
+  text-align: center;
+}
+
+article section div {
+  width: 100%;
+  margin: 5px;
+}
+
+article section img {
+  width: 150px;
+  height: 200px;
+  margin-left: 125px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+article section header {
+  text-align: justify;
+}
+
+.available {
+  background-color: gray;
+  color: yellow;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+.specifications div {
+  font-weight: bold;
+}
+
+.specifications footer {
+  font-size: .8em;
+}
+
+.pricing div {
+  font-weight: bold;
+}
